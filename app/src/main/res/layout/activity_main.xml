@@ -13,8 +13,8 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_marginTop="220dp"
-        android:src="@drawable/Group" />
+        android:layout_marginTop="150dp"
+        android:src="@drawable/group" />
 
     <TextView
         android:id="@+id/textView"
@@ -28,15 +28,22 @@
         app:fontFamily="serif" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="310dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="200dp"
         android:gravity="bottom|left"
         android:text="Next"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#fff"
         android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
 
 </LinearLayout>

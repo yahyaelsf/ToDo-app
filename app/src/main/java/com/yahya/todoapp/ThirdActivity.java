@@ -7,18 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-      TextView next ;
+public class ThirdActivity extends AppCompatActivity {
+     TextView login ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.third);
         setContentView(R.layout.activity_main);
-        next = findViewById(R.id.tv_next);
-        next.setOnClickListener(new View.OnClickListener() {
+        login = findViewById(R.id.tv_login);
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_next = new Intent(getApplicationContext() , SecondActivity.class);
-                startActivity(intent_next);
+                Intent intent_login = new Intent(getApplicationContext() , ThirdActivity.class);
+                startActivity(intent_login);
             }
         });
     }
