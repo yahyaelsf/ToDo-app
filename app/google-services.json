@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "860777739167",
+    "project_id": "listtodoapp-b7cac",
+    "storage_bucket": "listtodoapp-b7cac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860777739167:android:016de92a57f5bd4130c3aa",
+        "android_client_info": {
+          "package_name": "com.yahya.todoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860777739167-3e290bu7f9puol2f3pg54h4hkv0hahnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTvVUGd2m-G8QIphM1MIdX5WXwvQekqAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860777739167-3e290bu7f9puol2f3pg54h4hkv0hahnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

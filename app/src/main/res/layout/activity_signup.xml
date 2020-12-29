@@ -13,21 +13,35 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Welcome Back!"
+        android:text="create profile to start your first ToDo List"
         android:textColor="#fff"
         android:textSize="24sp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:textAlignment="center"/>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/name"
         android:layout_width="300dp"
         android:layout_height="44dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="Your Name"
+        android:paddingLeft="30dp"
+        android:background="#8357dc"
+        android:textColor="#fff"
+
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
         android:text="Your email address"
         android:paddingLeft="30dp"
         android:background="#8357dc"
@@ -35,58 +49,46 @@
 
         />
 
-
-
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/et_password"
         android:layout_width="300dp"
         android:layout_height="44dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Password"
+        android:inputType="textPassword"
+        android:text="password"
         android:paddingLeft="30dp"
         android:background="#8357dc"
         android:textColor="#fff"
 
         />
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:paddingLeft="130dp"
-        android:text="Forget your password ?"
-        android:textAlignment="center"
-        android:textColor="#fff"
-        app:fontFamily="sans-serif-condensed-light" />
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_signup"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:background="#feb70b"
-        android:text="Log in"
+        android:text="ButtCreate your profile"
         android:textAlignment="center"
         android:textColor="#fff" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tv_have_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:text="Don't have an account?"
+        android:layout_marginTop="40dp"
+        android:text="Already have an account ?"
         android:textAlignment="center"
         android:textColor="#fff"
         app:fontFamily="sans-serif-condensed-light" />
 
-
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Create your profile"
+        android:layout_marginTop="20dp"
+        android:text="Login"
         android:textAlignment="center"
         android:textColor="#fff"
 
