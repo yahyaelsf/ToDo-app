@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle"
+    tools:context=".AddList">
+
+
+
+    <TextView
+        android:onClick="OnClickCancle"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:text="cancel"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+
+    <Button
+        android:onClick="onClickSave"
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/log"
+        android:text="Save"
+        android:textColor="#FFF"
+        android:textSize="16dp" />
+
+
+    <EditText
+        android:id="@+id/edit_text_name_of_list"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+         android:gravity="center"
+        android:drawablePadding="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/edite_text_shape"
+        android:ems="10"
+        android:hint="Enter the name of List"
+        android:inputType="text"
+        />
+
+
+</RelativeLayout>

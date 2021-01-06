@@ -65,7 +65,7 @@ public class LoginActivity extends AppCompatActivity {
                                         Toast.makeText(getApplicationContext(), "Authontication Error", Toast.LENGTH_SHORT).show();
                                     }
                                 } else {
-                                    Intent intent = new Intent(LoginActivity.this, ListsActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, Lists.class);
                                     startActivity(intent);
                                     finish();
                                 }

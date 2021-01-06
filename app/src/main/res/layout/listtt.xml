@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F9F9F9" android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="70dp" android:layout_marginVertical="5dp" android:layout_marginHorizontal="5dp">
+
+    <TextView
+        android:id="@+id/note_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:text="Title Note"
+        />
+    <TextView
+        android:id="@+id/numberOfTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:textColor="#000000"
+        android:text="3 Task"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        />
+
+
+</RelativeLayout>

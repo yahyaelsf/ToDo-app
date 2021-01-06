@@ -1,11 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.recyclerview.widget.RecyclerView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rv_lists"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListsActivity"
+    android:background="@drawable/rectangle"
+    tools:context=".Lists">
 
-/>
+
+
+    <ImageView
+        android:onClick="back"
+        android:layout_width="50dp"
+        android:layout_height="32dp"
+        android:src="@drawable/backspacepurple"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:onClick="logout"
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:textSize="26sp"
+        android:layout_marginEnd="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentEnd="true"
+        android:text="Logout"
+
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/listToDo"
+       android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="18dp"
+        android:text="ListToDo"
+        android:textColor="#FAF2F2"
+        android:textSize="20sp"
+        />
+
+
+    <EditText
+        android:id="@+id/search_edit_text1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="120dp"
+        android:hint="Search"
+        android:textSize="17sp"
+        android:inputType="text"
+        android:textColorHint="#FBFBFB"
+        android:background="@drawable/edite_text_shape"
+        android:drawableLeft="@drawable/searchicon"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textlList"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:text="Lists:"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/search_edit_text1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        />
+
+    <Button
+        android:id="@+id/createbut"
+        android:onClick="OnClickCreateNewList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create new list here"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        android:background="@drawable/edite_text_shape"
+        android:drawableLeft="@drawable/fab_plus"
+        android:layout_below="@+id/textlList"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="23dp"
+        />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_below="@+id/createbut"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
